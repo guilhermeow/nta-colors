@@ -1,5 +1,5 @@
 {
-  "name": "node-colors",
+  "name": "nta-colors",
   "version": "1.0.0",
   "description": "change the color of your nodejs console",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sickog0d/node-colors.git"
+    "url": "git+https://github.com/sickog0d/nta-colors.git"
   },
   "keywords": [
     "colors-node",
@@ -18,7 +18,7 @@
   "author": "sickog0d <slowmodegod@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sickog0d/node-colors/issues"
+    "url": "https://github.com/sickog0d/nta-colors/issues"
   },
-  "homepage": "https://github.com/sickog0d/node-colors#readme"
+  "homepage": "https://github.com/sickog0d/nta-colors#readme"
 }
