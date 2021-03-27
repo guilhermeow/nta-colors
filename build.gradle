@@ -1,0 +1,44 @@
+apply plugin: 'maven-publish' 
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+def githubProperties = new Properties()
+githubProperties.load(
+    new FileInputStream(rootProject.file("github.properties"))
+)
+
+def getVersionName = { ->
+    return "1.0.2"
+}
+
+def getArtifactId = { ->
+    return "mylib" 
+}
+
+
+android { ... }
+
+dependencies { ... }
+
+publishing {
+    publications {
+        mylib(MavenPublication) {
+            groupId 'br.com.nglauber'
+            artifactId getArtifactId()
+            version getVersionName()
+            artifact("$buildDir/outputs/aar/${getArtifactId()}-release.aar")
+        }
+    }
+
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/nglauber/mylib")
+            credentials {
+                username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
+                password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
+            }
+        }
+    }
+}
