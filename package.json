@@ -1,6 +1,6 @@
 {
   "name": "nta-colors",
-  "version": "1.0.0",
+  "version": "0.0.4",
   "description": "change the color of your nodejs console",
   "main": "src/index.js",
   "scripts": {
