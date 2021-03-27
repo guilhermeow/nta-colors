@@ -1,0 +1,24 @@
+{
+  "name": "node-colors",
+  "version": "1.0.0",
+  "description": "change the color of your nodejs console",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sickog0d/node-colors.git"
+  },
+  "keywords": [
+    "colors-node",
+    "nodecolors",
+    "colors"
+  ],
+  "author": "sickog0d <slowmodegod@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sickog0d/node-colors/issues"
+  },
+  "homepage": "https://github.com/sickog0d/node-colors#readme"
+}
