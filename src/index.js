@@ -1,5 +1,7 @@
 const colors = require("./colors.js");
 
 module.exports = {
-    all: colors
+    bg: colors.bg,
+    fg: colors.fg,
+    ot: colors.ot,
 }
