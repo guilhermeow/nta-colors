@@ -20,7 +20,5 @@
         black, red, green, yellow, blue, magenta, cyan, white, crimson
     }
 ```
-# Contributors:
- - [sickog0d](https://sickog0d.github.io)
 # License
 - [MIT](https://github.com/sickog0d/nta-colors/blob/main/LICENSE)
