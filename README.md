@@ -5,6 +5,7 @@
  # Examples:
 ```js
  const ncolors = require("nta-colors");
+ 
  console.log(ncolors.<ot/fg/bg>.<color>, "Hello World");
   //returns the console with the chosen color
 ```
