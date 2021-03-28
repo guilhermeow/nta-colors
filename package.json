@@ -1,5 +1,5 @@
 {
-  "name": "@sickog0d/nta-colors",
+  "name": "nta-colors",
   "version": "0.0.4",
   "description": "change the color of your nodejs console",
   "main": "src/index.js",
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sickog0d/nta-colors.git"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "colors-node",
