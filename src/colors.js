@@ -16,7 +16,7 @@ module.exports ={
         cyan: "\x1b[46m",
         white: "\x1b[47m",
         crimson: "\x1b[48m"
-    }
+    },
      fg: {
         black: "\x1b[30m",
         red: "\x1b[31m",
